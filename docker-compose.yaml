@@ -5,7 +5,7 @@ services:
         image: ermegilius/nodejs:0.0.1
         build: ./nodejs
         working_dir: /work
-        entry_point: /bin/sh
+        entrypoint: /bin/sh
         stdin_open: true
         tty: true
         volumes:
